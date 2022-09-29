@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>박보경의 홈페이지</title>
+    <link href ="CSS/practice.css" rel="stylesheet" type="text/css">
+    
+    <script src="JS/add.js"></script>
+    <script src="JS/time.js"></script>
+</head>
+<script type = "text/javascript">
+    function addSomthing(){
+    let a = document.getElementById('inputA').value;
+    let b = document.getElementById('inputB').value;
+    document.getElementById("valueA").innerHTML = a;
+    document.getElementById("valueB").innerHTML = b;
+    document.getElementById("valueC").innnerHTML= Number(a) + Number(b);
+    }
+
+    function whatTimeIsIt(){
+    alter(new Date());
+    }
+
+</script>
+<body>
+    <nav>
+        <a href = "#">안녕하세요?</a>
+        <a href = "#">Blog</a>
+        <a href = "#">About Me</a>
+    </nav>
+
+    <h1>첫 번째 크기 헤드라인</h1>
+    <h2>두 번째 크기 헤드라인</h2>
+    <h3>세 번째 크기 헤드라인</h3>
+    <h4>네 번째 크기 헤드라인</h4>
+    <h5>다섯 번째 크기 헤드라인</h5>
+
+    <p>문단은 p로 쓰새요. p는 아마도 Paragraph의 앞글자를 따온 것이겠죠?</p>
+
+    <label for="inputA">a</label>
+    <input id = "inputA" value=1 onkeyup="addSomething()">
+    <label for="inputB">b</label>
+    <input id = "inputB" value=2 onkeyup="addSomething()">
+    <p><span id = "valueA">1</span> + <span id = "valueB">2</span> = <span id = "valueC">3</span>입니다. </p>
+
+    <!-- <button onclick = "whatTimeIsIt()">현재시간</button> -->
+
+    <a href = "https://google.com">GO to Google!</a>
+
+    <hr>
+    <img src="images/possible.jpg" width="600px">
+</body>
+</html>
