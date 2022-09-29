@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang = "ko">
 <head>
     <title>박보경의 홈페이지</title>
     <link href ="CSS/practice.css" rel="stylesheet" type="text/css">
@@ -7,20 +7,7 @@
     <script src="JS/add.js"></script>
     <script src="JS/time.js"></script>
 </head>
-<script type = "text/javascript">
-    function addSomthing(){
-    let a = document.getElementById('inputA').value;
-    let b = document.getElementById('inputB').value;
-    document.getElementById("valueA").innerHTML = a;
-    document.getElementById("valueB").innerHTML = b;
-    document.getElementById("valueC").innnerHTML= Number(a) + Number(b);
-    }
 
-    function whatTimeIsIt(){
-    alter(new Date());
-    }
-
-</script>
 <body>
     <nav>
         <a href = "#">안녕하세요?</a>
@@ -36,13 +23,20 @@
 
     <p>문단은 p로 쓰새요. p는 아마도 Paragraph의 앞글자를 따온 것이겠죠?</p>
 
+    <br>
+ 
     <label for="inputA">a</label>
-    <input id = "inputA" value=1 onkeyup="addSomething()">
+    <input id="inputA", value="1" onkeyup="addSomething()">
     <label for="inputB">b</label>
-    <input id = "inputB" value=2 onkeyup="addSomething()">
-    <p><span id = "valueA">1</span> + <span id = "valueB">2</span> = <span id = "valueC">3</span>입니다. </p>
+    <input id="inputB" value="2" onkeyup="addSomething()"></label>
 
-    <!-- <button onclick = "whatTimeIsIt()">현재시간</button> -->
+    <p>
+        <span id="valueA">1</span> + <span id="valueB">2</span> = <span id="valueC">입니다</span>
+    </p>
+
+    <br>
+
+    <button onclick = "whatTimeIsIt()">현재시간</button>
 
     <a href = "https://google.com">GO to Google!</a>
 

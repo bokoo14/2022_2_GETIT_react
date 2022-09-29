@@ -1,2 +1,7 @@
-nav {background-color: darkgreen; font-size: 150%; text-align: center;}
-nav a {color: gold;}
+nav {
+    background-color: darkgreen; font-size: 150%; text-align: center;
+}
+
+nav a {
+    color: gold;
+}
