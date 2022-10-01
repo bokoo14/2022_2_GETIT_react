@@ -9,12 +9,12 @@ const comment = [
     },
 
     {
-        name: "유재석",
+        name: "송강",
         comment: "리액트 재미있어요~!",
     },
 
     {
-        name: "강민경",
+        name: "차은우",
         comment: "저도 리액트 배워보고 싶어요!!",
     },
 
