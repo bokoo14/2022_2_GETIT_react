@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Clock from './comment/Clock';
+import Clock from './timer/Clock';
 import CommentList from './comment/CommentList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
